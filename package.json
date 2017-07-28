@@ -1,0 +1,16 @@
+{
+  "name": "Cruisee",
+  "version": "0.0.1",
+  "main": "dist/server/index.js",
+  "author": "Chris Goodwin && Barbara Pfahringer",
+  "description": "Govhack 2017 project",
+  "repository": "https://github.com/KiwiAzn/vigilant-octo-journey",
+  "dependencies": {
+    "express": "latest",
+    "gulp-csso": "^3.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-pug": "^3.3.0",
+    "mongoose": "latest",
+    "webpack-stream": "^3.2.0"
+  }
+}
