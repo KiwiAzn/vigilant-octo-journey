@@ -1,16 +1,42 @@
 {
-  "name": "Cruisee",
-  "version": "0.0.1",
-  "main": "dist/server/index.js",
-  "author": "Chris Goodwin && Barbara Pfahringer",
-  "description": "Govhack 2017 project",
-  "repository": "https://github.com/KiwiAzn/vigilant-octo-journey",
+  "name": "govhack2017",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "dependencies": {
-    "express": "latest",
-    "gulp-csso": "^3.0.0",
-    "gulp-less": "^3.3.2",
-    "gulp-pug": "^3.3.0",
-    "mongoose": "latest",
-    "webpack-stream": "^3.2.0"
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-cookies": "^1.6.5",
+    "angular-material": "^1.1.4",
+    "angular-messages": "^1.6.5",
+    "angular-resource": "^1.6.5",
+    "angular-sanitize": "^1.6.5",
+    "angular-ui-router": "^1.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "body-parser": "~1.17.1",
+    "browserify": "^14.4.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "event-stream": "^3.3.4",
+    "express": "~4.15.2",
+    "globby": "^6.1.0",
+    "lodash": "^4.17.4",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }

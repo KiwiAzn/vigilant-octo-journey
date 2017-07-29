@@ -1,0 +1,12 @@
+html(ng-app="app")
+  head
+    link(href='/css/angular-material.min.css' rel='stylesheet' type='text/css')
+    link(href='https://js.cit.api.here.com/v3/3.0/mapsjs-ui.css' rel='stylesheet' type='text/css')
+    script(src='http://js.api.here.com/v3/3.0/mapsjs-core.js')
+    script(src='http://js.api.here.com/v3/3.0/mapsjs-service.js')
+    script(src='http://js.api.here.com/v3/3.0/mapsjs-ui.js')
+    script(src='http://js.api.here.com/v3/3.0/mapsjs-mapevents.js')
+  body
+    #mapContainer(style='height:100%; width: 100%;')
+
+script(src='/js/app.js')
