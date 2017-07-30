@@ -6,7 +6,16 @@ html(ng-app="app")
     script(src='http://js.api.here.com/v3/3.0/mapsjs-service.js')
     script(src='http://js.api.here.com/v3/3.0/mapsjs-ui.js')
     script(src='http://js.api.here.com/v3/3.0/mapsjs-mapevents.js')
-  body
-    #mapContainer(style='height:100%; width: 100%;')
+  body(style='display:flex; flex-direction: row')
+    #leftContainer(style='flex-grow: 1;display:flex; flex-direction: column; overflow: scroll; height:100%; width: 100%;')
+      img(style='max-width: 100%; width: auto; height: auto' src='/img/cruzeelogotest.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph1.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph2.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph3.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph4.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph5.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph6.png')
+
+    #mapContainer(style='flex-grow: 1; height:100%; width: 100%;')
 
 script(src='/js/app.js')

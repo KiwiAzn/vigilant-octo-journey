@@ -44,12 +44,18 @@ gulp.task('server', function buildServer() {
         .pipe(livereload());
 });
 
+gulp.task('img', function buildServer() {
+    return gulp.src('./src/client/img/**')
+        .pipe(gulp.dest('./dist/client/img/.'))
+        .pipe(livereload());
+});
+
 gulp.task('libraryCSS', function copyLibrary() {
     return gulp.src(['./node_modules/angular-material/angular-material.min.css'])
         .pipe(gulp.dest('./dist/client/css'));
 });
 
-gulp.task('watch', ['build','html', 'libraryCSS', 'server'], function () {
+gulp.task('watch', ['build','html', 'libraryCSS', 'img', 'server'], function () {
     livereload.listen();
     gulp.watch('./src/client/*.js', ['build']);
     gulp.watch('./src/client/views/*.pug', ['html']);

@@ -45,11 +45,6 @@ const dunedinAttractions = [
         lng: 170.6272188
     },
     {
-        name: 'Taieri Gorge Railway',
-        lat: -45.8754049,
-        lng: 170.5088746
-    },
-    {
         name: 'Penguin Place',
         lat: -45.7962879,
         lng: 170.7309005
@@ -60,7 +55,7 @@ const dunedinAttractions = [
         lng: 170.728546
     },
     {
-        name: 'Dunedin Train Station',
+        name: 'Dunedin Train Station/ Taieri Gorge Railway',
         lat: -45.8753385,
         lng: 170.5089075
     },
