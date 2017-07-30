@@ -1,0 +1,23 @@
+html(ng-app="app")
+  head
+    link(href='/css/angular-material.min.css' rel='stylesheet' type='text/css')
+    link(href='https://js.cit.api.here.com/v3/3.0/mapsjs-ui.css' rel='stylesheet' type='text/css')
+    script(src='http://js.api.here.com/v3/3.0/mapsjs-core.js')
+    script(src='http://js.api.here.com/v3/3.0/mapsjs-service.js')
+    script(src='http://js.api.here.com/v3/3.0/mapsjs-ui.js')
+    script(src='http://js.api.here.com/v3/3.0/mapsjs-mapevents.js')
+    script(async='', src='//platform.twitter.com/widgets.js', charset='utf-8')
+  body(style='display:flex; flex-direction: row')
+    #leftContainer(style='flex-grow: 1;display:flex; flex-direction: column; overflow: scroll; height:100%; width: 100%;')
+      img(style='max-width: 100%; width: auto; height: auto' src='/img/cruzeelogotest.png')
+      a.twitter-timeline(data-height='300', data-theme='light', href='https://twitter.com/CruzeeInfo') Tweets by CruzeeInfo
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph1.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph2.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph3.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph4.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph5.png')
+      img(style='max-width: 100%; width: auto; height: auto; display: block; object-fit: contain' src='/img/graph6.png')
+
+    #mapContainer(style='flex-grow: 1; height:100%; width: 100%;')
+
+script(src='/js/app.js')
